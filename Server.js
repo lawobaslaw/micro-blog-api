@@ -10,7 +10,7 @@ const app = express();
 /** Connect Database */
 connectDB();
 
-const port = 3000;
+const port = process.env.PORT;
 
 
 /**  middleware */
