@@ -25,7 +25,7 @@ router.post('/post/add', authGuard, async (req, res) => {
 
 })
 
-// Get all mypost user route
+// Get all post user route
 router.get('/post/all', authGuard, async (req, res) => {
     try {
         // destructure _id const { _id } = user._id;
